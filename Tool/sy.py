@@ -20,7 +20,7 @@ except ImportError:
 
 try:
     update = requests.get('https://raw.githubusercontent.com/I4mKillua0/Update-Active/Sasuke/Sasuke%5BV1%5DUpdating/Sasuke%5BV1%5D/Version-Sasuke').text
-    if 'Sasuke-V1.0' in update:
+    if 'Sasuke-V1.1' in update:
         pass
     else:
         vaup = 'New Update Now Available\nTry To Install New Update'
@@ -29,3 +29,4 @@ except requests.exceptions.ConnectionError:
     vaE = s3('Connection Error', style='red')
     s4().print(vaE, style='A2CD5A')
     exit()
+Print('New Update')
