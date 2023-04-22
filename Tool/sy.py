@@ -29,4 +29,4 @@ except requests.exceptions.ConnectionError:
     vaE = s3('Connection Error', style='red')
     s4().print(vaE, style='A2CD5A')
     exit()
-Print('New Update')
+print('New Update')
